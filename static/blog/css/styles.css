@@ -11128,6 +11128,19 @@ header.masthead {
   background-attachment: scroll;
   background-image: url("/static/blog/img/home-bg.jpg");
 }
+
+header.masthead.aboutus{
+  background-image: url("/static/blog/img/about-bg.jpg");
+}
+
+header.masthead.contactus {
+  background-image: url("/static/blog/img/contact-bg.jpg");
+}
+
+header.masthead.post {
+  background-image: url("/static/blog/img/post-bg.jpg");
+}
+
 header.masthead:before {
   content: "";
   position: absolute;
