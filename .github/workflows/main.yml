@@ -18,4 +18,4 @@ jobs:
           heroku_email: "akj441@gmail.com"
         env:
           HD_DJANGO_SECRET_KEY: ${{secrets.DJANGO_SECRET_KEY}}
-          HD_DJANGO_DEBUG: False
+          HD_DJANGO_DEBUG: 'False'
